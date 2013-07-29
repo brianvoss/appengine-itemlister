@@ -54,6 +54,5 @@ class MainRequestHandler(BaseRequestHandler):
     
 
 application = webapp2.WSGIApplication(
-                                      [('/', MainRequestHandler)],
-                                      debug=_DEBUG)
-  (
+  [('/', MainRequestHandler)],
+  debug=_DEBUG)
